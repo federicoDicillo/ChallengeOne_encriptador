@@ -1,0 +1,155 @@
+body{
+    background: #F3F5FC;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+
+.box{
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.munheco{
+    position: relative;
+    width: 336px;
+    height: 304px;
+    padding: 243px 32px 32px 32px;
+}
+.texto{
+    padding: 0 32px 243px 32px;
+}
+.ningun{
+width: 336px;
+height: 58px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #343A40;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.ingre{
+width: 336px;
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+textarea{
+    resize: none;
+    position: absolute;
+    width: 577px;
+    height: 350px;
+    left: 240px;
+    top: 168px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background : inherit;
+    border: none;
+}
+
+span{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 851px 971px 155px 264px;
+}
+.boto{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+.encriptar{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+}
+.desencrip{
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color:#0A3871;
+
+}

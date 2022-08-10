@@ -6,28 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Encriptador de texto</title>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Challenge Encriptador</title>
 </head>
 
 <body>
     <div class="container">
-  
+        <h1>Encriptador de Mensajes</h1>
         <img class="logo" src="./assets/Logo.png" alt="Logo">
-
         <span>Solo letras minúsculas y sin acentos</span>
 
-
-        <textarea class="texto" placeholder="Ingresar texto" ></textarea>
+    <div class="left">
+        <textarea id="inputTexto" placeholder="Ingresar texto" ></textarea>
         <form class="d-flex boto">
-            <button type="button" class="btn btn-prymary encriptar">Encriptar</button>
-            <button type="button" class="btn btn-prymary desencrip">Desencriptar</button>
+            <button type="button" class="btn btn-prymary encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" class="btn btn-prymary desencrip" onclick="desencriptar()">Desencriptar</button>
         </form>
+    </div>
         <div class="box">
-            <img class="munheco" src="./assets/Muñeco.png" alt="Mueco">
+            <img id="imglupa" class="lupa" src="./assets/pngwing.com.png" alt="imglupa">
             <div class="texto">
-                <p class="ningun">Ningún mensaje fue encontrado</p>
-                <p class="ingre">Ingresa el texto que desees encriptar o desencriptar.
-                </p>
+                <p  id="textobox" class="ningun">Ningún mensaje fue encontrado</p>
+                <textarea  id="textobox2" class="ingre">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
             </div>
         </div>
 
